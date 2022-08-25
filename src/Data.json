@@ -1,0 +1,167 @@
+[
+	{
+		"id": 1,
+		"image": "./Assets/images/p_1.jpeg",
+		"name": "Red Carpet Real Estate",
+		"location": "210 Zirak Road, Toronto",
+		"price": "$3700",
+		"type": "Apartment",
+		"area": "5x7",
+		"beds": "2",
+		"baths": "2"
+	},
+	{
+		"id": 2,
+		"image": "./Assets/images/p_2.jpeg",
+		"name": "Fairmount Properties",
+		"location": "5698 Wall Road, NewYork",
+		"price": "$9750",
+		"type": "Condos",
+		"area": "6x7.5",
+		"beds": "2",
+		"baths": "2"
+	},
+	{
+		"id": 3,
+		"image": "./Assets/images/p_3.jpeg",
+		"name": "The Real Estate Corner",
+		"location": "5624 Mooker Market, Florida",
+		"price": "$5860",
+		"type": "Condos",
+		"area": "8x10",
+		"beds": "3",
+		"baths": "3"
+	},
+	{
+		"id": 4,
+		"image": "./Assets/images/p_4.jpeg",
+		"name": "Herringbone Realty",
+		"location": "5621 Liverpool, London",
+		"price": "$7540",
+		"type": "Homes & Villas",
+		"area": "5.5x7.5",
+		"beds": "5",
+		"baths": "5"
+	},
+	{
+		"id": 5,
+		"image": "./Assets/images/p_5.jpeg",
+		"name": "Brick Lane Realty",
+		"location": "210 Montreal Road, Ohio",
+		"price": "$4850",
+		"type": "Apartment",
+		"area": "6.5x8.5",
+		"beds": "2",
+		"baths": "2"
+	},
+	{
+		"id": 6,
+		"image": "./Assets/images/p_6.jpeg",
+		"name": "Maarquis Heights",
+		"location": "180 Dadar, India",
+		"price": "$2742",
+		"type": "Condos",
+		"area": "4.5x9",
+		"beds": "2",
+		"baths": "2"
+	},
+	{
+		"id": 7,
+		"image": "./Assets/images/p_7.jpeg",
+		"name": "Dream Heritage",
+		"location": "21 HSR, India",
+		"price": "$7500",
+		"type": "Homes & Villas",
+		"area": "5x8",
+		"beds": "3",
+		"baths": "3"
+	},
+	{
+		"id": 8,
+		"image": "./Assets/images/p_8.jpeg",
+		"name": "Palm Harbour",
+		"location": "360 Oval, London",
+		"price": "$4500",
+		"type": "Apartment",
+		"area": "6.8x9",
+		"beds": "2",
+		"baths": "2"
+	},
+	{
+		"id": 9,
+		"image": "./Assets/images/p_9.jpeg",
+		"name": "Faulkner Ave",
+		"location": "909 Highland lake, Florida",
+		"price": "$3500",
+		"type": "Condos",
+		"area": "7.2x8.5",
+		"beds": "4",
+		"baths": "4"
+	},
+	{
+		"id": 10,
+		"image": "./Assets/images/p_10.jpeg",
+		"name": "Beverley Springs",
+		"location": "2821 NM Road, Ohio",
+		"price": "$2750",
+		"type": "Apartment",
+		"area": "5x7",
+		"beds": "2",
+		"baths": "2"
+	},
+	{
+		"id": 11,
+		"image": "./Assets/images/p_11.jpeg",
+		"name": "Huckster Avenue",
+		"location": "210 RG Road, Toronto",
+		"price": "$1569",
+		"type": "Apartment",
+		"area": "3.5x6",
+		"beds": "2",
+		"baths": "2"
+	},
+	{
+		"id": 12,
+		"image": "./Assets/images/p_12.jpeg",
+		"name": "Dream Realty",
+		"location": "700 MS Road, NewYork",
+		"price": "$2742",
+		"type": "Condos",
+		"area": "6.5x8.5",
+		"beds": "3",
+		"baths": "3"
+	},
+	{
+		"id": 13,
+		"image": "./Assets/images/p_13.jpeg",
+		"name": "Happy Excelencia",
+		"location": "450 RS Road, Dubai",
+		"price": "$8725",
+		"type": "Homes & Villas",
+		"area": "10x7",
+		"beds": "5",
+		"baths": "5"
+	},
+	{
+		"id": 14,
+		"image": "./Assets/images/p_14.jpeg",
+		"name": "Elanza Property",
+		"location": "210 Sheikh Road, Dubai",
+		"price": "$9775",
+		"type": "Homes & Villas",
+		"area": "15x10",
+		"beds": "6",
+		"baths": "6"
+	},
+	{
+		"id": 15,
+		"image": "./Assets/images/p_15.jpeg",
+		"name": "Kassel Braun",
+		"location": "Mg Road, India",
+		"price": "$6594",
+		"type": "Apartment",
+		"area": "9x7",
+		"beds": "2",
+		"baths": "2"
+	}
+]
