@@ -107,6 +107,30 @@
 	overflow: hidden;
 	color: #a8a8a8;
 }
+.search-div {
+	width: 20rem;
+	height: 2.5rem;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #fff;
+}
+.search-input {
+	border: none;
+	font-size: 1rem;
+	width: 15rem;
+	height: 2.5rem;
+}
+
+.search-input:active,
+.search-input:focus {
+	outline: none;
+	font-size: 1rem;
+	width: 15rem;
+	height: 2.5rem;
+}
 
 @media screen and (max-width: 1024px) {
 	.headtext {

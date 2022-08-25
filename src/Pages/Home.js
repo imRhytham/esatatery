@@ -1,5 +1,6 @@
 import React from 'react';
 import PropertyCard from '../Components/PropertyCard';
+import Searchbar from '../Components/Searchbar';
 import data from './../Data.json';
 const Home = () => {
 	console.log(data);
@@ -7,7 +8,9 @@ const Home = () => {
 		<div className='container'>
 			<div className='searchbox-container'>
 				<div className='headtext'>Search Properties for rent</div>
-				<div className='headtext'>Search</div>
+				<div>
+					<Searchbar />
+				</div>
 			</div>
 			<div className='filter-container'>
 				<div>filter</div>
