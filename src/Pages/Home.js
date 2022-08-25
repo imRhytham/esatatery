@@ -13,8 +13,8 @@ const Home = () => {
 				<div>filter</div>
 			</div>
 			<div className='property-container'>
-				{data.map((item, index) => {
-					return <PropertyCard key={index} {...item} />;
+				{data?.map((item, index) => {
+					return <PropertyCard key={item.id} {...item} />;
 				})}
 			</div>
 		</div>

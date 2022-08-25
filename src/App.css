@@ -56,15 +56,56 @@
 	flex-direction: row;
 	justify-content: space-between;
 	overflow: hidden;
+	color: #a8a8a8;
 }
 
 .location-container {
-	margin: 1rem;
+	margin-left: 1rem;
 	display: flex;
-	border: 1px solid #ccc;
 	flex-direction: column;
 	overflow: hidden;
-	line-height: 0%;
+	line-height: 0;
+	color: #a8a8a8;
+}
+
+.svg-div {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+.price-text {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #8934eb;
+	text-overflow: clip;
+}
+
+.title-text {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #1f1f1f;
+	text-overflow: clip;
+}
+
+.hr-line {
+	height: 1px;
+	background-color: #ccc;
+	margin: 1rem;
+	margin-top: 0.25rem;
+}
+
+.property-info {
+	margin: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	overflow: hidden;
+	color: #a8a8a8;
 }
 
 @media screen and (max-width: 1024px) {
