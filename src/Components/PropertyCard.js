@@ -19,7 +19,7 @@ const PropertyCard = ({
 			</div>
 			<div className='price-container'>
 				<span>
-					<span className='price-text'>{price}</span>/month
+					<span className='price-text'>${price}</span>/month
 				</span>
 				<div className='svg-div'>
 					<AiOutlineHeart size='1.5rem' color='#8934eb' />
