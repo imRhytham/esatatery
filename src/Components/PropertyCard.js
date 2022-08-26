@@ -43,7 +43,7 @@ const PropertyCard = ({
 					<BiArea size='1.25rem' color='#8934eb' />
 					<span>
 						{' '}
-						m<sup>2</sup>
+						{area}m<sup>2</sup>
 					</span>
 				</div>
 			</div>

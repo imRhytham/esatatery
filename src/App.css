@@ -21,12 +21,6 @@
 	text-overflow: clip;
 }
 
-.filter-container {
-	width: 100%;
-	border: 1px solid #ccc;
-	margin-top: 2rem;
-}
-
 .property-container {
 	margin: 2rem;
 	display: grid;
@@ -132,6 +126,51 @@
 	height: 2.5rem;
 }
 
+.filter-container {
+	width: 100%;
+	height: 5rem;
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	overflow: hidden;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.dropdown-div {
+	width: 15rem;
+	height: 2.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	line-height: 2rem;
+	background-color: #fff;
+}
+
+.verticle-line {
+	width: 1px;
+	height: 3rem;
+	background-color: #ccc;
+	margin: 0.5rem;
+}
+
+label {
+	font-size: 1rem;
+	font-weight: bold;
+	color: #a8a8a8;
+	text-overflow: clip;
+}
+button {
+	width: 7rem;
+	height: 2.5rem;
+	border-radius: 8px;
+	color: #fff;
+	font-size: 1rem;
+	background-color: #8934eb;
+	border-style: none;
+}
+
 @media screen and (max-width: 1024px) {
 	.headtext {
 		font-size: 1.5rem;
@@ -148,6 +187,37 @@
 	}
 	.property-container {
 		grid-template-columns: repeat(1, 1fr);
-		gap: 1rem;
+		gap: 1.5rem;
+	}
+	.searchbox-container {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		line-height: 2.5rem;
+	}
+	.property-card {
+		background-color: #fff;
+		width: 300px;
+		height: auto;
+		overflow: hidden;
+		border-radius: 8px;
+	}
+	.filter-container {
+		width: auto;
+		height: auto;
+		margin-top: 2rem;
+		display: flex;
+		flex-direction: column;
+		background-color: #fff;
+		border-radius: 5px;
+		padding: 2rem;
+	}
+	.verticle-line {
+		display: none;
+	}
+	.dropdown-div {
+		padding: 1rem;
 	}
 }
